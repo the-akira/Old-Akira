@@ -1,7 +1,8 @@
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
 body {
     font-family: 'Poppins', sans-serif;
-	  background: #bbcad9;
+    background: #bbcad9;
 }
 
 p {
@@ -12,10 +13,10 @@ p {
     color: black;
 }
 
-.sumario{
-  font-size: 1.2em;
-  font-style: oblique;
-  font-weight: bold;
+.sumario {
+    font-size: 1.2em;
+    font-style: oblique;
+    font-weight: bold;
 }
 
 .center {
@@ -53,9 +54,11 @@ a:focus {
     border-bottom: 1px dashed #2d2d2d;
     margin: 40px 0;
 }
-.btn-secondary{
-	background-color: #2d2d2d;
+
+.btn-secondary {
+    background-color: #2d2d2d;
 }
+
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
@@ -125,11 +128,11 @@ a[data-toggle="collapse"] {
     transform: translateY(-50%);
 }
 
-#sidebarCollapse{
-  background-color: black;
-  border-bottom: 1px solid black;
-  box-shadow: none;
-  border-color: black;
+#sidebarCollapse {
+    background-color: black;
+    border-bottom: 1px solid black;
+    box-shadow: none;
+    border-color: black;
 }
 
 ul ul a {
@@ -187,15 +190,19 @@ a.article:hover {
     #sidebar {
         margin-left: -250px;
     }
+
     #sidebar.active {
         margin-left: 0;
     }
+
     #content {
         width: 100%;
     }
+
     #content.active {
         width: calc(100% - 250px);
     }
+
     #sidebarCollapse span {
         display: none;
     }
